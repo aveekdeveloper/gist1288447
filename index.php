@@ -1,8 +1,8 @@
 <?php
 
-<?php
+
 print_r(get_loaded_extensions());
-?>
+
 
 /*
   # get the mongo db name out of the env
