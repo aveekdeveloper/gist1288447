@@ -1,4 +1,10 @@
 <?php
+
+<?php
+print_r(get_loaded_extensions());
+?>
+
+/*
   # get the mongo db name out of the env
   $mongo_url = parse_url(getenv("MONGOLAB_URI"));
   $dbname = str_replace("/", "", $mongo_url["path"]);
@@ -20,4 +26,5 @@
 
   # disconnect
   $m->close();
+  */
 ?>
