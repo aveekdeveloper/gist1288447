@@ -1,5 +1,6 @@
 <?php
 
+/*
  // current directory
 echo getcwd() . "\n";
 
@@ -12,7 +13,7 @@ if ($handle = opendir(getcwd())) {
     echo "Directory handle: $handle\n";
     echo "Entries:\n";
 
-    /* This is the correct way to loop over the directory. */
+    /* This is the correct way to loop over the directory. *//*
     while (false !== ($entry = readdir($handle))) {
         echo "$entry\n";
     }
@@ -21,7 +22,8 @@ if ($handle = opendir(getcwd())) {
 }
 
 print_r(get_loaded_extensions()); 
-
+*/
+phpinfo ();
 
 /*
   # get the mongo db name out of the env
